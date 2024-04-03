@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INT_ACTIVITY_SYSTEM_HELPER</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Malzeme anaveri yönetimi - Yardımcı sınıf</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_REQUEST_NO</CMPNAME>
+     <SCONAME>EV_REQUEST_NO</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Talep no</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_REQUEST_NO</CMPNAME>
+     <SCONAME>IV_PROCESS_TYPE</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Süreç tipi</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SESSION_PERSON</CMPNAME>
+     <SCONAME>RS_PERSON</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Personel bilgileri</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <SCONAME>IS_MODEL</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - İşleme Modeli</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

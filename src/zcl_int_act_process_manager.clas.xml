@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INT_ACT_PROCESS_MANAGER</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Malzeme anaveri yönetimi - Süreç yönetimi</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_RETURN</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Return error table type parameter</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTION_HANDLE</CMPNAME>
+     <SCONAME>CS_MODEL</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - İşleme Modeli</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_APPLICATION</CMPNAME>
+     <SCONAME>IV_APP</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Uygulama id</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PERFORM_VALIDATIONS</CMPNAME>
+     <SCONAME>CS_MODEL</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - İşleme Modeli</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

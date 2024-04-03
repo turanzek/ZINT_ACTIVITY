@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ACTIVITY_SYSTEM_MODEL</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Aktivite Giriş Sistemi Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MODEL</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - Uygulama modeli</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_MAIN_MASTERS</CMPNAME>
+     <SCONAME>CT_MODEL</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - Ana Model TT</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPLICATION_MODEL</CMPNAME>
+     <SCONAME>RS_APP_MODEL</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktivite Sistemi - Uygulama modeli</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_APPLICATION</CMPNAME>
+     <SCONAME>IV_APP</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Uygulama</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_APPLICATION_MODEL</CMPNAME>
+     <SCONAME>IV_APP</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Uygulama id</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
